@@ -341,6 +341,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/ffbinaries@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "@types/ffbinaries@npm:1.1.2"
+  checksum: 99cbd7b5ef854779010f034df815fb114d75c88862414f1ae18bae04da8a9edaf6d436788334d6c876ce4d858ca22e526448567b54585bf4a34b3db17c95ca86
+  languageName: node
+  linkType: hard
+
 "@types/json-schema@npm:^7.0.12":
   version: 7.0.12
   resolution: "@types/json-schema@npm:7.0.12"
@@ -1260,6 +1267,7 @@ __metadata:
     "@tsconfig/node18": ^18.2.0
     "@tsconfig/strictest": ^2.0.1
     "@types/commander": ^2.12.2
+    "@types/ffbinaries": ^1.1.2
     "@types/node": 18
     "@typescript-eslint/eslint-plugin": ^6.4.0
     "@typescript-eslint/parser": ^6.4.0

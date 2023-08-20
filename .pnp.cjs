@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node18", "npm:18.2.0"],\
             ["@tsconfig/strictest", "npm:2.0.1"],\
             ["@types/commander", "npm:2.12.2"],\
+            ["@types/ffbinaries", "npm:1.1.2"],\
             ["@types/node", "npm:18.17.6"],\
             ["@typescript-eslint/eslint-plugin", "virtual:45a386f26c64d44996cb2e4c782fc370d12d99924c48ce6a09fbca971c44bc5bd3d86cddbc09dc5c8507eee9ed39b5d1d09f4ca56e6a04ad70915fb13af93fd0#npm:6.4.0"],\
             ["@typescript-eslint/parser", "virtual:45a386f26c64d44996cb2e4c782fc370d12d99924c48ce6a09fbca971c44bc5bd3d86cddbc09dc5c8507eee9ed39b5d1d09f4ca56e6a04ad70915fb13af93fd0#npm:6.4.0"],\
@@ -445,6 +446,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@types/commander", "npm:2.12.2"],\
             ["commander", "npm:11.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@types/ffbinaries", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/@types-ffbinaries-npm-1.1.2-a60759d670-99cbd7b5ef.zip/node_modules/@types/ffbinaries/",\
+          "packageDependencies": [\
+            ["@types/ffbinaries", "npm:1.1.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1603,6 +1613,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node18", "npm:18.2.0"],\
             ["@tsconfig/strictest", "npm:2.0.1"],\
             ["@types/commander", "npm:2.12.2"],\
+            ["@types/ffbinaries", "npm:1.1.2"],\
             ["@types/node", "npm:18.17.6"],\
             ["@typescript-eslint/eslint-plugin", "virtual:45a386f26c64d44996cb2e4c782fc370d12d99924c48ce6a09fbca971c44bc5bd3d86cddbc09dc5c8507eee9ed39b5d1d09f4ca56e6a04ad70915fb13af93fd0#npm:6.4.0"],\
             ["@typescript-eslint/parser", "virtual:45a386f26c64d44996cb2e4c782fc370d12d99924c48ce6a09fbca971c44bc5bd3d86cddbc09dc5c8507eee9ed39b5d1d09f4ca56e6a04ad70915fb13af93fd0#npm:6.4.0"],\
