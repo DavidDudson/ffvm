@@ -42,9 +42,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.47.0"],\
             ["ffbinaries", "npm:1.1.5"],\
             ["git-conventional-commits", "npm:2.6.5"],\
+            ["husky", "npm:8.0.3"],\
             ["inquirer", "npm:9.2.10"],\
             ["prettier", "npm:3.0.2"],\
             ["regenerator-runtime", "npm:0.14.0"],\
+            ["semver", "npm:7.5.4"],\
             ["ts-node", "virtual:45a386f26c64d44996cb2e4c782fc370d12d99924c48ce6a09fbca971c44bc5bd3d86cddbc09dc5c8507eee9ed39b5d1d09f4ca56e6a04ad70915fb13af93fd0#https://github.com/TypeStrong/ts-node.git#commit=47d4f45f35e824a2515e17383a563be7dba7d8ff"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
           ],\
@@ -1610,9 +1612,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.47.0"],\
             ["ffbinaries", "npm:1.1.5"],\
             ["git-conventional-commits", "npm:2.6.5"],\
+            ["husky", "npm:8.0.3"],\
             ["inquirer", "npm:9.2.10"],\
             ["prettier", "npm:3.0.2"],\
             ["regenerator-runtime", "npm:0.14.0"],\
+            ["semver", "npm:7.5.4"],\
             ["ts-node", "virtual:45a386f26c64d44996cb2e4c782fc370d12d99924c48ce6a09fbca971c44bc5bd3d86cddbc09dc5c8507eee9ed39b5d1d09f4ca56e6a04ad70915fb13af93fd0#https://github.com/TypeStrong/ts-node.git#commit=47d4f45f35e824a2515e17383a563be7dba7d8ff"],\
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
           ],\
@@ -1873,6 +1877,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["assert-plus", "npm:1.0.0"],\
             ["jsprim", "npm:1.4.2"],\
             ["sshpk", "npm:1.17.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["husky", [\
+        ["npm:8.0.3", {\
+          "packageLocation": "./.yarn/cache/husky-npm-8.0.3-b0b59c5127-837bc7e441.zip/node_modules/husky/",\
+          "packageDependencies": [\
+            ["husky", "npm:8.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\

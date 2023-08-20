@@ -1269,9 +1269,11 @@ __metadata:
     eslint: ^8.47.0
     ffbinaries: ^1.1.5
     git-conventional-commits: ^2.6.5
+    husky: ^8.0.0
     inquirer: ^9.2.10
     prettier: ^3.0.2
     regenerator-runtime: ^0.14.0
+    semver: ^7.5.4
     ts-node: "https://github.com/TypeStrong/ts-node#main"
     typescript: ^5.1.6
   languageName: unknown
@@ -1504,6 +1506,15 @@ __metadata:
     jsprim: ^1.2.2
     sshpk: ^1.7.0
   checksum: 3324598712266a9683585bb84a75dec4fd550567d5e0dd4a0fff6ff3f74348793404d3eeac4918fa0902c810eeee1a86419e4a2e92a164132dfe6b26743fb47c
+  languageName: node
+  linkType: hard
+
+"husky@npm:^8.0.0":
+  version: 8.0.3
+  resolution: "husky@npm:8.0.3"
+  bin:
+    husky: lib/bin.js
+  checksum: 837bc7e4413e58c1f2946d38fb050f5d7324c6f16b0fd66411ffce5703b294bd21429e8ba58711cd331951ee86ed529c5be4f76805959ff668a337dbfa82a1b0
   languageName: node
   linkType: hard
 
