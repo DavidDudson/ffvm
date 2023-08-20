@@ -7,7 +7,7 @@ export interface Ffconfig {
 
 export async function ffVersion(): Promise<string | null> {
   const config = await ffconfig();
-  return config?.config?.version ?? null;
+  return config?.config?.version?.toString() ?? null;
 }
 
 export async function ffconfig(): Promise<ConfigResult<Ffconfig> | null> {
